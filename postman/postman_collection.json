@@ -19,7 +19,7 @@
           "raw": "{\n  \"name\": \"Lumen High School\",\n  \"address\": \"Sunlight Street\",\n  \"latitude\": 26.12,\n  \"longitude\": 91.56\n}"
         },
         "url": {
-          "raw": "http://localhost:5000/api/schools",
+          "raw": "https://schools-api-tvc3.onrender.com/api/schools",
           "protocol": "http",
           "host": ["localhost"],
           "port": "5000",
@@ -33,7 +33,7 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "http://localhost:5000/api/schools?latitude=26.12&longitude=91.56",
+          "raw": "https://schools-api-tvc3.onrender.com/api/schools?latitude=26.12&longitude=91.56",
           "protocol": "http",
           "host": ["localhost"],
           "port": "5000",

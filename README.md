@@ -1,4 +1,3 @@
-
 # 📘 School Management API
 
 A RESTful Node.js + Express + MySQL API that allows users to:
@@ -65,6 +64,7 @@ Server runs at `http://localhost:5000`
 **POST** `/api/schools`
 
 **Body:**
+
 ```json
 {
   "name": "Lumen High School",
@@ -75,6 +75,7 @@ Server runs at `http://localhost:5000`
 ```
 
 **Response:**
+
 ```json
 {
   "success": true,
@@ -90,6 +91,7 @@ Server runs at `http://localhost:5000`
 **GET** `/api/schools?latitude=26.12&longitude=91.56`
 
 **Response:**
+
 ```json
 {
   "success": true,
@@ -112,7 +114,8 @@ Server runs at `http://localhost:5000`
 ## 🧪 Postman Collection
 
 Import from:
-- [your-shared-link-here] or `school-api.postman_collection.json`
+
+- [link here](https://drive.google.com/file/d/1OUEsTiET4U9lHso4Uhux_VL9CDhxTCq5/view?usp=sharing)] or `school-api/postman/postman_collection.json`
 
 ---
 
