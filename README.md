@@ -115,7 +115,7 @@ Server runs at `http://localhost:5000`
 
 Import from:
 
-- [link here](https://drive.google.com/file/d/1OUEsTiET4U9lHso4Uhux_VL9CDhxTCq5/view?usp=sharing)] or `school-api/postman/postman_collection.json`
+- [link here](https://drive.google.com/file/d/1OUEsTiET4U9lHso4Uhux_VL9CDhxTCq5/view?usp=sharing) or `school-api/postman/postman_collection.json`
 
 ---
 
