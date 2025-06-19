@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS + Editor settings
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional: test artifacts
+coverage/
+*.test.js
+*.spec.js
+
+# Deployment or build folders (if any in future)
+dist/
+build/
+
+# Postman-generated files (optional)
+*.postman_environment.json

@@ -1,0 +1,56 @@
+{
+  "info": {
+    "name": "School Management API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add School",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Lumen High School\",\n  \"address\": \"Sunlight Street\",\n  \"latitude\": 26.12,\n  \"longitude\": 91.56\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/schools",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["api", "schools"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "List Schools",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5000/api/schools?latitude=26.12&longitude=91.56",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["api", "schools"],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "26.12"
+            },
+            {
+              "key": "longitude",
+              "value": "91.56"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

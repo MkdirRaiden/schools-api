@@ -1,0 +1,30 @@
+{
+  "name": "school-api",
+  "version": "1.0.0",
+  "description": "Node.js & MySQL API for School Management",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "api",
+    "school"
+  ],
+  "author": "Muktadir Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "cross-env": "^7.0.3"
+  }
+}
